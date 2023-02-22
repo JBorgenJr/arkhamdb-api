@@ -1,4 +1,4 @@
-# arkham-api
+# arkhamdb-api
 
 ## Info
 
