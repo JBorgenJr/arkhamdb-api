@@ -42,5 +42,7 @@ async fn main() -> Result<(), reqwest::Error> {
         get_all_cards().await?;
     }
 
+    //TODO: Output JSON results to one file for each card
+
     Ok(())
 }
