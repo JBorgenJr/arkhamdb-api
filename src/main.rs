@@ -7,7 +7,7 @@ async fn get_all_cards() -> Result<(), reqwest::Error> {
         .await?
         .json::<serde_json::Value>()
         .await?;
-    println!("{:#?}", response);
+    println!("{}", response);
     Ok(())
 }
 
@@ -18,7 +18,7 @@ async fn get_card(value: &str) -> Result<(), reqwest::Error> {
         .await?
         .json::<serde_json::Value>()
         .await?;
-    println!("{:#?}", response);
+    println!("{}", response);
     Ok(())
 }
 
